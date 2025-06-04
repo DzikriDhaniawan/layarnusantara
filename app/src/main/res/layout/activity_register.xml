@@ -14,49 +14,53 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="-80dp"
+        android:elevation="4dp"
         android:layout_gravity="center"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginVertical="24dp"
-        android:layout_marginTop="-80dp"
-        android:background="#FFFFFF"
-        android:backgroundTintMode="src_in"
-        android:clipToPadding="false"
-        android:elevation="4dp"
-        android:orientation="vertical"
-        android:padding="24dp">
+        android:layout_marginVertical="24dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Buat Akun"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#1E2A38"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="16dp"
-            android:text="Masuk"
-            android:textColor="#1E2A38"
-            android:textSize="22sp"
-            android:textStyle="bold" />
-
+            tools:ignore="HardcodedText" />
 
         <EditText
-            android:id="@+id/email"
             android:layout_width="wrap_content"
-            android:layout_height="51dp"
+            android:layout_height="45dp"
             android:background="@drawable/roundedbox"
-            android:drawableStart="@drawable/emailaddress"
-            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_user"
+            android:hint="Username"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/roundedbox"
+            android:drawableStart="@drawable/ic_email"
             android:hint="Email Address"
             android:inputType="textEmailAddress"
             tools:ignore="HardcodedText" />
 
         <EditText
-            android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="45dp"
             android:layout_marginTop="12dp"
             android:background="@drawable/roundedbox"
-            android:drawableStart="@drawable/password"
-            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/ic_lock"
             android:hint="Password"
-            android:inputType="textPassword" />
+            android:inputType="textPassword"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/button3"
@@ -64,17 +68,17 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/yellow"
             android:layout_marginTop="15dp"
-            android:text="Sign in" />
+            android:text="Sign up"
+            tools:ignore="HardcodedText" />
 
         <TextView
-            android:id="@+id/txtSignup"
+            android:id="@+id/txtSignin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Have an account? Sign in"
+            android:textColor="#FFA000"
             android:layout_gravity="center"
             android:layout_marginTop="8dp"
-            android:text="Don't have an account yet? Sign up now"
-            android:textColor="#FFA000" />
-
+            tools:ignore="HardcodedText" />
     </LinearLayout>
-
 </LinearLayout>
