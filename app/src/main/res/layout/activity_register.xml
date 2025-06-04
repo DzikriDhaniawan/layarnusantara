@@ -8,8 +8,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp"
-        android:background="#1E2A38"/>
+        android:layout_height="215dp"
+        android:background="#1E2A38" />
 
     <LinearLayout
         android:layout_width="match_parent"
