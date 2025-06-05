@@ -12,8 +12,8 @@
         android:layout_height="87dp"
         android:layout_below="@id/imageView"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="-29dp"
-        android:layout_marginEnd="91dp"
+        android:layout_marginTop="-24dp"
+        android:layout_marginEnd="88dp"
         android:gravity="center"
         android:text="LAYAR NUSANTARA"
         android:textColor="@android:color/white"
@@ -52,8 +52,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="18dp"
+        android:layout_marginTop="82dp"
+        android:layout_marginEnd="17dp"
         app:srcCompat="@drawable/startbackground" />
 
     <Button
@@ -62,8 +62,8 @@
         android:layout_height="63dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="334dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="216dp"
         android:text="Mulai" />
 
 </RelativeLayout>
